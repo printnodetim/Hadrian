@@ -1,0 +1,212 @@
+div {
+    color: #000;
+}
+
+.header-solid, .header-below-phone {
+    margin-left: 12px;
+    width: 150px;
+    float:left;
+    text-align: center;
+}
+
+.header-solid {
+    background-color: #FE0000;
+}
+
+.header-top, .header-top div {
+    height: 12px;
+}
+
+.header-middle {
+    background-color: #FF2021;
+    background: -webkit-linear-gradient(#FF2021, #F00202); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF2021, #F00202); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF2021, #F00202); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF2021, #F00202); /* Standard syntax */
+    height: 100px;
+}
+
+    .header-middle div, .header-bottom .header-solid {
+        font-family: "Times New Roman", serif;
+    }
+
+    .header-middle .header-solid {
+        font-size: 65px;
+        height: 90px;
+        padding-top: 10px;
+    }
+
+    .header-middle .header-subtitle {
+        font-size: 23px;
+        padding: 21px 0 0 20px;
+        text-align: center;
+    }
+
+    .header-middle .header-subtitle {
+        display: inline-block;
+    }
+
+    .header-middle .header-logo {
+        float: right;
+        padding: 10px;
+    }
+
+    .header-middle .header-logo img {
+        height: 80px;
+    }
+
+.header-bottom {
+    clear:both;
+}
+    
+    .header-bottom .header-solid {
+        padding-top: 10px;
+        border-bottom: 3px solid #000;
+        height: 25px;
+    }
+
+    .header-bottom .header-nav {
+        padding-top: 7px;
+    }
+
+    .header-bottom .header-nav a {
+        background-color: #E2E2E2;
+        padding: 8px 10px 8px 10px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: bold;
+        margin-right: 3px;
+        font-family: Arial;
+    }
+
+    .header-bottom .header-nav a:last-child {
+        float: right;
+        margin: -7px 0;
+    }
+
+.header-below {
+    clear: both;
+}
+
+    .header-below-phone {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .header-below-right {
+        float: right;
+        width: 50%;
+    }
+
+        .header-below-right .search-block {
+            display: inline-block;
+            width: 70%;
+        }
+
+        .header-below-cart {
+            float: right;
+            padding: 3px;
+            color: #AAA;
+        }
+
+        .header-below-cart .fa {
+            font-size: 20px;
+            color: #000;
+        }
+
+        .header-below-right .search-input {
+            background-color: #FFF;
+            background: #FFF;
+            border: 1px solid #000;
+            height: 25px;
+            padding: 3px 5px 3px 5px;
+        }
+
+        .header-below-right button {
+            background-color: #000;
+            color: #FFF;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            height: 25px;
+            font-size: 10pt;
+            width: 25px;
+        }
+
+.left-nav {
+    margin-left: 12px;
+}
+
+    .left-nav a, .left-nav .contact {
+        font-family: Arial;
+        display: block;
+        width: 150px;
+        background-color: #E3E3E3;
+        padding: 5px 15px 5px 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+        color: #000;
+        font-size: 10px;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+    }
+
+    .left-nav .left-nav-int {
+        background-color: #FE0000;
+    }
+
+    .left-nav .left-nav-brit {
+        background-color: #3DB0F3;
+    }
+
+    .left-nav .left-nav-catalogue {
+        background-color: #000;
+    }
+
+    .left-nav .contact {
+        margin-top: 8px;
+
+
+    }
+
+    .left-nav .contact small {
+        font-weight: normal;
+        font-size: 9px;
+    }
+
+    .left-nav .left-nav-int, .left-nav .left-nav-brit, .left-nav .left-nav-catalogue {
+        color: #FFF;
+    }
+
+    .left-nav .left-nav-newsletter {
+        border: 1px solid #FE0000;
+        text-align: center;
+    }
+
+.main-content {
+    border-top: 2px solid #E3E3E3;
+    padding-top: 10px;
+}
+
+    .main-content .mainbox-title span {
+        font-size: 150%;
+    }
+
+.footer {
+    text-align: center;
+    font-family: Arial;
+}
+
+    .footer .footer-links {
+        background-color: #E3E3E3;
+        padding: 10px 0 10px 0;
+        margin: 5px 0 10px 12px;
+    }
+
+    .footer a {
+        color: #000;
+        padding: 5px;
+        font-size: 12px;
+        font-family: Arial;
+    }
