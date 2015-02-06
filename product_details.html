@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Shopping Cart Software &amp; Ecommerce Software Solutions by CS-Cart</title>
+  <meta content="chrome=1" http-equiv="X-UA-Compatible">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="Secure and full-featured Online Shopping Cart Software with the complete set of powerful ecommerce options to create your own online store with minimum efforts involved." name="description">
+  <meta content="shopping cart, software, ecommerce software, online store" name="keywords">
+  <meta content="full" name="mode">
+  <link href="http://hadrian.tk/images/logos/1/favicon.ico" rel="shortcut icon">
+  <link href="http://hadrian.tk/var/cache/misc/statics/design/themes/basic/css/standalone.d64b0a05e407e993b3f86058241a6a9e1402999145.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="newstyle3.css" rel="stylesheet" type="text/css">
+
+  <script src="http://hadrian.tk/var/cache/misc/statics/js/tygh/scripts-0079860250efa75e3a44a74128ad82391402999145.js?ver=4.1.4" type="text/javascript"></script>
+  <script type="text/javascript">
+//<![CDATA[
+  (function(_, $) {
+
+        _.tr({
+            cannot_buy: 'You cannot buy the product with these option variants',
+            no_products_selected: 'No products selected',
+            error_no_items_selected: 'No items selected! At least one check box must be selected to perform this action.',
+            delete_confirmation: 'Are you sure you want to delete the selected items?',
+            text_out_of_stock: 'Out of stock',
+            items: 'item(s)',
+            text_required_group_product: 'Please select a product for the required group [group_name]',
+            save: 'Save',
+            close: 'Close',
+            notice: 'Notice',
+            warning: 'Warning',
+            error: 'Error',
+            text_are_you_sure_to_proceed: 'Are you sure you want to proceed?',
+            text_invalid_url: 'You have entered an invalid URL',
+            error_validator_email: 'The email address in the <b>[field]<\/b> field is invalid.',
+            error_validator_phone: 'The phone number in the <b>[field]<\/b> field is invalid. The correct format is (555) 555-55-55 or 55 55 555 5555.',
+            error_validator_integer: 'The value of the <b>[field]<\/b> field is invalid. It should be integer.',
+            error_validator_multiple: 'The <b>[field]<\/b> field does not contain the selected options.',
+            error_validator_password: 'The passwords in the <b>[field2]<\/b> and <b>[field]<\/b> fields do not match.',
+            error_validator_required: 'The <b>[field]<\/b> field is mandatory.',
+            error_validator_zipcode: 'The ZIP / Postal code in the <b>[field]<\/b> field is incorrect. The correct format is [extra].',
+            error_validator_message: 'The value of the <b>[field]<\/b> field is invalid.',
+            text_page_loading: 'Loading... Your request is being processed, please wait.',
+            error_ajax: 'Oops, something went wrong ([error]). Please try again.',
+            text_changes_not_saved: 'Your changes have not been saved.',
+            text_data_changed: 'Your changes have not been saved.Press OK to continue, or Cancel to stay on the current page.',
+            more: 'More'
+        });
+        
+        $.extend(_, {
+            index_script: 'index.php',
+            changes_warning: /*'Y'*/'N',
+            currencies: {
+                'primary': {
+                    'decimals_separator': '.',
+                    'thousands_separator': ',',
+                    'decimals': '2'
+                },
+                'secondary': {
+                    'decimals_separator': '.',
+                    'thousands_separator': ',',
+                    'decimals': '2',
+                    'coefficient': '1.00000'
+                }
+            },
+            default_editor: 'redactor',
+            default_previewer: 'prettyphoto',    
+            current_path: '',
+            current_location: 'http://hadrian.tk',
+            images_dir: 'http://hadrian.tk/design/themes/basic/media/images',
+            notice_displaying_time: 5,
+            cart_language: 'en',
+            default_language: 'en',
+            cart_prices_w_taxes: false,
+            translate_mode: false,
+            theme_name: 'basic',
+            regexp: [],
+            current_url: 'index.php',
+            current_host: 'hadrian.tk',
+            init_context: ''
+        });
+    
+    
+        $(document).ready(function(){
+            $.runCart('C');
+        });
+
+    
+  }(Tygh, Tygh.$));
+  //]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  CloudZoom = {
+    path: 'http://hadrian.tk/js/addons/image_zoom'
+  };
+  //]]>
+  </script>
+</head>
+
+<body>
+  <div class="tygh" id="tygh_container">
+    <div class="ajax-overlay" id="ajax_overlay">
+    </div>
+
+
+    <div class="ajax-loading-box" id="ajax_loading_box">
+    </div>
+
+
+    <div class="cm-notification-container notification-container">
+    </div>
+
+
+    <div class="helper-container" id="tygh_main_container">
+
+      <div class="tygh-header clearfix">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span16">
+
+              <div class="header-top">
+                <div class="header-solid"></div>
+              </div>
+
+              <div class="header-middle">
+                <div class="header-solid">
+                  BAR
+                </div>
+                <div class="header-subtitle">
+                  <span class="smaller">Publisher and Distributer</span><br />
+                  British Archaeological Reports
+                </div>
+                <div class="header-logo">
+                  <img src="40years.png">
+                </div>
+              </div>
+
+              <div class="header-bottom">
+                <div class="header-solid">
+                  Since 1974
+                </div>
+                <div class="header-nav">
+                  <a href="index.html">Home</a>
+                  <a href="">Trade Sales</a>
+                  <a href="">Libraries</a>
+                  <a href="">Standing Orders</a>
+                  <a href="">Publish With Us / Authors</a>
+                  <a href="">About BAR</a>
+                  <a href="">Sign In</a>
+                </div>
+              </div>
+
+              <div class="header-below">
+                <div class="header-below-right">
+                  <div class="search-block">
+                    <form action="http://hadrian.tk/index.php" id="search_form" method="get" name="search_form">
+                          <input name="subcats" type="hidden" value="Y">
+                          <input name="status" type="hidden" value="A">
+                          <input name="pshort" type="hidden" value="Y">
+                          <input name="pfull" type="hidden" value="Y">
+                          <input name="pname" type="hidden" value="Y">
+                          <input name="pkeywords" type="hidden" value="Y">
+                          <input name="search_performed" type="hidden" value="Y">
+                          <input class="search-input cm-hint" id="search_input" name="q" title="Search products" type="text" value="">
+                          <button class="search-magnifier search-button" title="Search" type="submit">&gt;</button>
+                          <input name="dispatch" type="hidden" value="products.search">
+                    </form>
+                  </div>
+                  <div class="header-below-cart">
+                    <i class="fa fa-shopping-cart"></i> 1 Item(s) - £50.00
+                  </div>
+                </div>
+                <div class="header-below-phone">
+                  <strong>+44 (0)1865 310431</strong>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tygh-content clearfix">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span16">
+              <div class="left-nav">
+                <a href="product_list.html" class="left-nav-int">International Series</a>
+                <a href="#" class="left-nav-brit">British Series</a>
+                <a href="#" class="left-nav-catalogue">Catalogue Download</a>
+                <a href="#">Geographical Areas</a>
+                <a href="subject_areas.html">Subject Area</a>
+                <a href="#">Time Period</a>
+                <a href="#">Language</a>
+                <a href="#" class="left-nav-newsletter">Sign up to Monthly New Publications</a>
+
+                <div class="contact">
+                    BAR<br />
+                    Hadrian Books Ltd.<br />
+                    122 Banbury Rd<br />
+                    Oxford OX2 7BP<br />
+                    United Kingdom<br /><br />
+
+                    <small>
+                      bar@hadrianbooks.co.uk<br />
+                      T: +44 (0)1865 310431<br />
+                      F: +44 (0)1865 316916
+                    </small>
+                </div>
+              </div>
+
+              <div class="main-content">
+
+  <div class="product-container template-products list clearfix">
+    <form action="http://hadrian.tk/index.php" class=
+    "cm-disable-empty-files cm-ajax cm-ajax-full-render cm-ajax-status-middle cm-processed-form"
+    enctype="multipart/form-data" id="product_form_3879" method="post" name=
+    "product_form_3879">
+      <input name="result_ids" type="hidden" value=
+      "cart_status*,wish_list*,checkout*,account_info*"> <input name=
+      "redirect_url" type="hidden" value=
+      "index.php?dispatch=categories.view&amp;category_id=1932&amp;sort_by=product&amp;sort_order=asc&amp;layout=products_without_options">
+       <input name="product_data[3879][product_id]" type="hidden" value="3879">
+
+      <div class="float-left product-item-image center">
+        <span class="cm-reload-3879 image-reload" id=
+        "list_image_update_3879 image-wrapper"><a href=
+        "http://hadrian.tk/index.php?dispatch=products.view&amp;product_id=3879">
+        <input name="image[list_image_update_3879][link]" type="hidden" value=
+        "http://hadrian.tk/index.php?dispatch=products.view&amp;product_id=3879">
+        <input name="image[list_image_update_3879][data]" type="hidden" value=
+        "3879,150,150,product">
+
+        <div style="height: 250px;margin-right: 10px">
+          <img src="no_image_available.png" style="max-height:100%;max-width:100%;">
+        </div></a> <!--list_image_update_3879--></span>
+      </div>
+
+
+      <div class="product-info">
+        <div class="float-right right add-product">
+          <div class="cm-reload-3879" id="add_to_cart_update_3879">
+            <input name="appearance[show_add_to_cart]" type="hidden" value="1">
+            <input name="appearance[separate_buttons]" type="hidden" value="1">
+            <input name="appearance[show_list_buttons]" type="hidden" value=
+            "1"> <input name="appearance[but_role]" type="hidden" value=
+            "action"> <input name="appearance[quick_view]" type="hidden" value=
+            "">
+
+<!--             <div class="buttons-container" id="cart_add_block_3879">
+
+            </div> -->
+
+            <!--add_to_cart_update_3879-->
+          </div>
+        </div>
+
+
+        <div class="prod-info">
+          <div class="prices-container clearfix" style="padding:0">
+
+            <a class="product-title" href=
+            "http://hadrian.tk/index.php?dispatch=products.view&amp;product_id=3879" style="font-size:14px"><strong>A Thousand Years of Farming: Late Chalcolithic Agricultural Practices at Tell Brak in Northern Mesopotamia</strong></a>
+
+            <div class="product-prices" style="padding-bottom:3px">
+
+              <span class="cm-reload-3879" id="old_price_update_3879">
+              <!--old_price_update_3879--></span>
+
+              <span class=
+              "cm-reload-3879 price-update" id="price_update_3879"><input name=
+              "appearance[show_price_values]" type="hidden" value="1">
+              <input name="appearance[show_price]" type="hidden" value="1">
+              <span style="font-weight:bold;font-size:14px">£34.00</span>
+              <!--price_update_3879--></span>
+
+            </div>
+
+            <strong style="display:inline">BAR:</strong> S2880<br />
+            <strong style="display:inline">ISBN:</strong> 9781407303604<br />
+            <strong style="display:inline">Authors:</strong> Mette Marie Hald<br />
+            <strong style="display:inline">Year:</strong> 2008
+          </div>
+
+          <div style="margin-top: 5px">
+
+              <div class="cm-reload-3879" id="qty_update_3879">
+                <input name="appearance[show_qty]" type="hidden" value="1">
+                <input name="appearance[capture_options_vs_qty]" type="hidden"
+                value="">
+
+                <div class="qty clearfix changer" id="qty_3879">
+                  <label for="qty_count_3879" style="margin-left:0">Quantity:</label>
+
+                  <div class="center valign value-changer cm-value-changer">
+                    <a class="cm-increase increase">+</a> <input class=
+                    "input-text-short cm-amount" id="qty_count_3879" name=
+                    "product_data[3879][amount]" size="5" type="text" value="1">
+                    <a class="cm-decrease decrease">−</a>
+                  </div>
+                </div>
+                <!--qty_update_3879-->
+              </div>
+
+              <span class="button-submit-action button-wrap-left" id=
+              "wrap_button_cart_3879"><span class=
+              "button-submit-action button-wrap-right"><input id=
+              "button_cart_3879" name="dispatch[checkout.add..3879]" type=
+              "submit" value="Add to cart"></span></span>
+          </div>
+
+          <div class="options-wrapper">
+          </div>
+
+        </div>
+        <div style="margin-top: 10px;color:#444;font-size:11px">
+          The Late Chalcolithic is a period of far-reaching changes in many aspects of life in Mesopotamia. On the southern alluvial plain (present day Iraq) the first city states appear, among them the city of Uruk, which grows to become the largest of the cities in the south. The growth of cities coincides with evidence for elaborate ritual building complexes, an increasingly class-stratified society, industrial specialisation, and multi-tiered administration, which includes the invention of writing. The present volume focuses on the agricultural developments in Late Chalcolithic northern Mesopotamia from the perspective of a major settlement in the region, Tell Brak in modern northeast Syria. Agriculture formed the basis of the economy of ancient Near Eastern communities; a study of the crop husbandry practices of Tell Brak can potentially identify the plant economy of the site, including the crops present in the settlement, and methods of crop processsing and use. Any agricultural responses to changes in the socio-political system, known from the archaeological evidence to have taken place during the Late Chalcolithic, can also be assessed. These responses may be able to give us an indication of the wider economic responses to societal change during the Late Chalcolithic.
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tygh-content footer clearfix">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span16">
+              <div class="footer-links">
+                <a>Home</a>
+                <a>Order Information</a>
+                <a>Privacy</a>
+                <a>Contact Us</a>
+                <a>Feedback</a>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span16">
+              &copy; 2015 Hadrian Books Ltd
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--tygh_main_container-->
+    </div>
+    <!--tygh_container-->
+  </div>
+
+</body>
+</html>
